@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #CEDEAB;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    background-color: #3B4031;
+    padding: 1rem;
+}
+header h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #CEDEAB;
+}
+
+header p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #CEDEAB;
+}
+
+header nav {
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+header nav a {
+    text-decoration: underline;
+    color: #CEDEAB;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+}
+
+
+#historia h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #3B4031;
+}
+#historia p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #3B4031;
+}   
+
+img {
+    width: 60%;
+    margin-left: 300px;
+    border-radius: 20px;
+    border: 2px solid #3B4031;
+}
+#personagens h2 {
+    text-align: right;
+    font-size: 3rem;
+    color: #3B4031;
+    margin-right: 3%;
+}
+#personagens p {
+    text-align: right;
+    font-size: 1.2rem;
+    color: #3B4031;
+    margin-right: 3%;
+    margin-top: -2rem;
+}
+
+.separador {
+    border: 2px solid #3B4031;
+    width: 85%;
+    position: center;  
+    margin: 4rem 0;
+}
+#personagens ul {
+    list-style-type: none;
+    padding: 3;
+    text-align: right;
+    margin: 5vh 3% 5vh 0;
+
+}
+#sonho {
+    margin-left: 3%;
+
+}
+#sonho h2 {
+    text-align: left;
+    font-size: 3rem;
+    color: #3B4031;
+    margin-left: 1%;
+}
+#sonho ol {
+    text-align: left;
+    font-size: 1.2rem;
+    color: #3B4031;
+    margin-top: -2rem;
+    margin-bottom: 5vh;
+    
+}
+#sonho li {
+   padding: 10px;
+}
+.separador2 {
+    border: 2px solid #3B4031;
+    width: 85%; 
+    margin: auto;
+    margin-right: 0;
+} 
+
+footer {
+    background-color: #3B4031;
+    border-radius: 30px;
+    padding: 1rem;
+    text-align: center;
+    color: #CEDEAB;
+}
+footer a {
+    color: #6A784C;
+    text-decoration: underline;
+}
